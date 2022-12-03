@@ -6,7 +6,7 @@
 #define HELLOC_03_PRIVATE_PERSON_H_
 
 typedef struct {
-
+  void* _Placeholder;
 } Person;
 
 Person *PersonNew(char const *name, int age, char const *intro);
